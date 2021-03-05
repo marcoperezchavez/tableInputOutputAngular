@@ -1,0 +1,14 @@
+
+<br>
+<br>
+<app-add-people
+(addPeopleEmit)="addPeople($event)"
+>
+
+</app-add-people>
+
+<app-table *ngIf="showTable"
+[headers]="headers"
+[peoples]="peoples"
+(peopleEmit)="deletePeople($event)"
+></app-table>

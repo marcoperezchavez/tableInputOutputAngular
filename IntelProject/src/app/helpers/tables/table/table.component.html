@@ -1,0 +1,28 @@
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col" *ngFor="let header of headers">{{header}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of peoples">
+            <td scope="row">{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.lastName}}</td>
+            <td>
+                <button type="button" class="btn btn-danger" (click)="deletePeople(p.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+  
