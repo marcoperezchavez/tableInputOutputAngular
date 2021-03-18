@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Working
 
-you can see the application running in https://stackblitz.com/edit/angular-ivy-knmab9?file=src%2Fapp%2Fpages%2Fintel-principal%2Fintel-principal.component.ts
+you can see the application running in https://stackblitz.com/edit/angular-ivy-knmab9
 
 ## Development server
 
