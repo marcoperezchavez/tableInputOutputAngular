@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
+# Working
+
+you can see the application running in https://stackblitz.com/edit/angular-ivy-knmab9?file=src%2Fapp%2Fpages%2Fintel-principal%2Fintel-principal.component.ts
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
